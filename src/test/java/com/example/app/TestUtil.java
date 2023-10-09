@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.app;
 
 import java.util.HashSet;
 import java.util.Set;

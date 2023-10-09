@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.example.app;
 
-import com.example.demo.service.SymbolFrequencyService;
+import com.example.app.service.SymbolFrequencyService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -8,8 +8,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import static com.example.demo.TestUtil.charCount;
-import static com.example.demo.TestUtil.strToSet;
+import static com.example.app.TestUtil.charCount;
+import static com.example.app.TestUtil.strToSet;
 
 class SymbolFrequencyServiceTests {
 
