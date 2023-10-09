@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  symbol-frequency:
+    build: .
+    image: symbol-frequency-image
+    container_name: symbol-frequency-container
+    ports:
+      - "8080:8080"
